@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>windows多选交互</title>
+  <style type="text/css">
+        #main {
+            width: 1150px;
+            height: 780px;
+            border: 1px solid #e7e81a;
+            margin: auto;
+        }
+ 
+        p {
+            float: left;
+            width: 150px;
+            height: 150px;
+            border: 1px dotted grey;
+            margin: 19px;}
+        .sel{
+          border: 1px solid red;
+        }
+        p[sel = "sel"] {
+            border: 1.8px solid red;
+        }
+    </style>
+</head>
+<body>  
+  <div id="main">
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+    <p><img src="http://avatar.csdn.net/9/F/E/1_yanqinhui.jpg" title="访问我的空间"></p>
+ 
+   </div>
+
+
+    <script type="text/javascript">
+    const pList = document.querySelectorAll('p')
+    let start = null
+
+    function handleCheck(e) {
+      for (var i = 0; i < pList.length; i++) {
+        pList[i].index = i;
+        if (e.shiftKey) {
+          const sIndex = start.index;
+          const eIndex = this.index;
+          var sel = Array.from(pList);
+          // var sel = Array.from(pList).slice(Math.min(sIndex, eIndex), Math.max(sIndex, eIndex) + 1);
+          console.log(sel)
+          // sel.attr("sel", "sel");
+          // $("p").not(sel).removeAttr("sel");
+          // return;
+        }else{
+          start = i
+          if (this.classList === 'sel') {
+            this.classList.remove('sel')
+          }else{
+            this.classList.add('sel')
+          }
+        }
+
+      };
+      // pList.forEach(p => {
+      //   if (p === this) {
+      //     p.classList.add('sel')
+      //     // p.setAttribute('sel') = 'sel'
+      //   }else{
+      //     start = this
+      //     if (p.classList.includes('sel')) {
+      //       p.classList.remove('sel')
+      //     }else{
+      //       p.classList.add('sel')
+      //     }
+      //   }
+      // })
+    }
+    pList.forEach(el => el.addEventListener('click', handleCheck));
+    </script>
+</body>
+</html>
