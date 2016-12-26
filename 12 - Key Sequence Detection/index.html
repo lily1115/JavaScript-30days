@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Key Detection</title>
+  <script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script>
+</head>
+<body>
+<script>
+let pressed = []
+let keyword = 'lily'
+
+window.addEventListener('keyup', (e) => {
+  pressed.push(e.key)
+  console.log(e.key)
+  pressed.splice(-keyword.length - 1, pressed.length - keyword.length);
+  if (pressed.join('').includes(keyword)) {
+    console.log('ding ding ding')
+    cornify_add()
+  };
+  console.log(pressed)
+})
+
+</script>
+</body>
+</html>
