@@ -25,7 +25,7 @@
 15. [x] ~~[LocalStorage](./exercises/15\ -\ LocalStorage/)~~
 16. [x] ~~[Mouse Move Shadow](./exercises/16\ -\ Mouse\ Move\ Shadow/)~~
 17. [x] ~~[Sort Without Articles](./exercises/17\ -\ Sort\ Without\ Articles/)~~
-18. [x] ~~[Adding Up Times with Reduce](./exercises/18\ -\ Adding\ Up\ Times\ with\ Reduce/)~~
+18. [x] ~~[Adding Up Times with Reduce](./18\ -\ Adding\ Up\ Times\ with\ Reduce/)~~
 19. [ ] Webcam Fun
 20. [ ] Speech Detection
 21. [ ] Geolocation
