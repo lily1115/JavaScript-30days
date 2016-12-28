@@ -8,9 +8,9 @@
 
 ## Table Of Contents
 
-1. [x] ~~[JavaScript Drum Kit](./01\ -\ JavaScript\ Drum\ Kit/)~~
-2. [x] ~~[JS + CSS Clock](./02\ -\ JS\ +\ CSS\ Clock/)~~
-3. [x] ~~[CSS Variables](./exercises/03\ -\ CSS\ Variables/)~~
+1. [x] ~~[JavaScript Drum Kit](01\-\JavaScript\ Drum\ Kit/)~~
+2. [x] ~~[JS + CSS Clock](./02\-\JS\+\CSS\ Clock/)~~
+3. [x] ~~[CSS Variables](/03\-\CSS\ Variables/)~~
 4. [x] ~~[Array Cardio, Day 1](./exercises/04\ -\ Array\ Cardio\ Day\ 1/)~~
 5. [x] ~~[Flex Panel Gallery](./exercises/05\ -\ Flex\ Panel\ Gallery/)~~
 6. [x] ~~[Type Ahead](./exercises/06\ -\ Type\ Ahead/)~~
