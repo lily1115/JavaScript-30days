@@ -27,6 +27,26 @@
 
   <script>
     // 👀👀👀👀👀👀👀👀👀👀👀👀👀👀👀
+    const aList = document.querySelectorAll('a')
+    const highLightSpan = document.createElement('span')
+    highLightSpan.classList.add('highlight')
+    document.body.append(highLightSpan)
+
+    function highLightEnter () {
+      const linkCoords = this.getBoundingClientRect()
+      console.log(linkCoords)
+      const coord = {
+        width: linkCoords.width,
+        height: linkCoords.height,
+        left: linkCoords.left,
+        top: linkCoords.top,
+      }
+      highLightSpan.style.width = `${coord.width}px`
+      highLightSpan.style.height = `${coord.height}px`
+      highLightSpan.style.transform = `translate(${coord.left}px, ${coord.top}px)`
+    }
+
+    aList.forEach(a => a.addEventListener('mouseenter', highLightEnter))
   </script>
 </body>
 </html>
