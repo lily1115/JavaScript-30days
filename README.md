@@ -31,7 +31,7 @@
 22. [ ] [22 - Follow Along Link Highlighter](./exercises/22\ -\ Follow\ Along\ Link\ Highlighter)
 23. [ ] [23 - Speech Synthesis](./exercises/23 - Speech\ Synthesis)
 24. [ ] [24 - Sticky Nav](./exercises/24\ -\ Sticky\ Nav)
-25. [ ] [25 - Event Capture, Propagation, Bubbling, and Once](./exercises/25\ -\ Event\ Capture\,\ Propagation\,\ Bubbling\,\ and\ Once)
+25. [ ] [25 - Event Capture, Propagation, Bubbling, and Once](./exercises/25\ -\ Event\ Capture\, Propagation\, Bubbling\, and\ Once)
 26. [ ] [26 - Stripe Follow Along Nav](./exercises/26\ -\ Stripe\ Follow\ Along\ Nav)
 27. [ ] [27 - Click and Drag](./exercises/27\ -\ Click\ and\ Drag)
 28. [ ] [28 - Video Speed Controller](./exercises/28 - Video Speed Controller)
