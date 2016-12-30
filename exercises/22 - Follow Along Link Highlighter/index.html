@@ -38,8 +38,8 @@
       const coord = {
         width: linkCoords.width,
         height: linkCoords.height,
-        left: linkCoords.left,
-        top: linkCoords.top,
+        left: linkCoords.left + window.scrollLeft,
+        top: linkCoords.top + window.scrollTop,
       }
       highLightSpan.style.width = `${coord.width}px`
       highLightSpan.style.height = `${coord.height}px`
