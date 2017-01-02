@@ -4,6 +4,18 @@
   <meta charset="UTF-8">
   <title>Sticky Nav</title>
   <link rel="stylesheet" href="style-START.css">
+  <style>
+    .fixed li.logo{
+      max-width: 162px;
+      box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1)
+    }
+    .fixed #main{
+      position: fixed;
+    }
+    .site-wrap{
+      transform: scale(1);
+    }
+  </style>
 </head>
 <body>
 
@@ -54,6 +66,18 @@
   </div>
 
 <script>
+const main = document.querySelector('#main')
+function scrollFun (e) {
+  console.log(this.scrollY)
+  if (this.scrollY > main.offsetTop) {
+    document.body.style.paddingTop = main.height
+    document.body.classList.add('fixed')
+  }else{
+    document.body.style.paddingTop = 0
+    document.body.classList.remove('fixed')
+  }
+}
+window.addEventListener('scroll', scrollFun)
 
 </script>
 
