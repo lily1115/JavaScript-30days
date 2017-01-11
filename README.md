@@ -4,7 +4,7 @@
 > Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)
 
 ## Introduction
-通过一天一个JavaScript小项目，共30天完成一个没有框架或库的纯JavaScript程序，每个项目都是一个独立的个体，非常适合前端开发者来巩固JavaScript知识点
+[JavaScript30](https://javascript30.com/account)是一系列的视频教程，旨在30天编写30个前端小项目。 这些项目不需要使用其他lib,不需要编译，不需要模板，回归最纯真的JavaScript；
 
 ## Table Of Contents
 1. [x] [1 - JavaScript Drum Kit](./exercises/01\ -\ JavaScript\ Drum\ Kit/)

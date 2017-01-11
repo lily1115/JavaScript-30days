@@ -1,4 +1,14 @@
-# flex && key
+# flex && key <kdd>
+
+涉及知识点：
+- <kdd>标签 用于表示用户输入的标签 MDN-kdd
+- <audio>音频播放标签
+- 1vh 等于1/100的视口高度。
+
+> <kdd>标签 用于表示用户输入的标签 MDN-kdd
+> 默认是行内元素，以monospacing
+
+
 
 > **flex-direction**
 ```css
@@ -6,8 +16,6 @@
   flex-direction: row | row-reverse | column |   column-reverse;
 }
 ```
-
-[image:2BE714F2-68A9-4BA6-8C20-D15104EE4703-266-00001EE64D029DFA/401282B0-0C0C-44ED-A88F-5CA12019799D.png]
 
 > **flex-wrap **
 ```css
