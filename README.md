@@ -4,7 +4,7 @@
 > Join the challenge (for free!) here - [JavaScript30](https://javascript30.com/account)
 
 ## Introduction
-[JavaScript30](https://javascript30.com/account)是一系列的视频教程，旨在30天编写30个前端小项目。 这些项目不需要使用其他lib,不需要编译，不需要模板，回归最纯真的JavaScript；
+[JavaScript30](https://javascript30.com/account)是一系列的视频教程，旨在30天编写30个前端小项目。 这些项目不需要使用其他lib,不需要编译，不需要模板，回归最纯真的JavaScript
 
 ## Table Of Contents
 1. [x] [1 - JavaScript Drum Kit](./exercises/01\ -\ JavaScript\ Drum\ Kit/)
